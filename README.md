@@ -42,10 +42,10 @@ The Photo Gallery Application allows users to upload, view, and manage photos in
 ## Running the Projects
 
 ### Running the To-Do List
-1. Open the `index.html` file in the `to-do-list` directory using your preferred web browser.
+1. Open the `M-1 Assignment 3 Q1.html` file in the `main` directory using your preferred web browser.
 
 ### Running the Photo Gallery Application
-1. Open the `index.html` file in the `photo-gallery` directory using your preferred web browser.
+1. Open the `M-1 Assignment 3 Q2.html`` file in the `main` directory using your preferred web browser.
 
 ## Features
 
@@ -61,12 +61,5 @@ The Photo Gallery Application allows users to upload, view, and manage photos in
 - Click to view photos in a modal
 - Save photos in local storage
 
-## Screenshots
-### To-Do List
-![To-Do List Screenshot](path-to-to-do-list-screenshot)
-
-### Photo Gallery Application
-![Photo Gallery Screenshot](path-to-photo-gallery-screenshot)
-
 ## Credits
-Developed by [Your Name].
+Developed by Usman.
