@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="M-1 Assignment 3 Q1.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Enhanced To-Do List</h1>
+        <div class="input-header">
+            <h1><span id="date"></span></h1>
+            <div class="to-do-input">
+                <input type="text" id="item" placeholder="Enter a task...">
+                <select id="priority" class="priority-select">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+                <button id="enter">Enter</button>
+            </div>
+        </div>
+        <div class="filter-options">
+            <button id="all">All</button>
+            <button id="completed">Completed</button>
+            <button id="incomplete">Incomplete</button>
+        </div>
+        <div class="to-do-list"></div>
+    </main>
+    <script src="M-1 Assignment 3 Q1.js"></script>
+</body>
+</html>

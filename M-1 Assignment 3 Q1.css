@@ -1,0 +1,126 @@
+/* Styles for the To-Do List application */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgba(48, 64, 64, 1.0); 
+  background: radial-gradient(ellipse at center, rgba(48, 64, 64, 1.0) 0%, rgba(0, 0, 0, 1.0) 100%);
+  min-height: 100vh;
+}
+
+.app {
+  width: 600px;
+  margin: auto;
+  padding-top: 50px;
+  color: white;
+}
+
+.input-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0 0 10px 0;
+}
+
+.to-do-input input {
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+.to-do-input button {
+  color: #5b7065;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.priority-select {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.filter-options button {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #5b7065;
+  color: white;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.to-do-list .item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.input-controller {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-controller textarea {
+  width: 70%;
+  outline: none;
+  border: none;
+  resize: none;
+  line-height: 1.4;
+  color: white;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.edit-controller {
+  display: flex;
+  gap: 5px;
+}
+
+.update-controller {
+  display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.priority-high {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.priority-medium {
+  background-color: rgba(255, 165, 0, 0.5);
+}
+
+.priority-low {
+  background-color: rgba(0, 255, 0, 0.5);
+}
